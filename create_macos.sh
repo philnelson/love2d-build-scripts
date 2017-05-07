@@ -15,7 +15,7 @@ zip -q -r -9 appzipped.love .
 mv appzipped.love ../Bin
 cd ../Bin
 
-echo "Removing Old Rassler.app"
+echo "Removing Old .app"
 rm -rf Release/$APP_NAME
 rm -rf Release/$DIST_NAME
 
